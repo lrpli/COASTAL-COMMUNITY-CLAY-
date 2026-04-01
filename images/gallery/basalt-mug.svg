@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Basalt Mug Series</title>
+  <desc id="desc">Stylized ceramic mug on a coastal inspired background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2d4c53" />
+      <stop offset="55%" stop-color="#4f6d72" />
+      <stop offset="100%" stop-color="#d7b18c" />
+    </linearGradient>
+    <linearGradient id="mug" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a5c48" />
+      <stop offset="100%" stop-color="#624336" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="640" fill="url(#bg)" />
+  <ellipse cx="480" cy="560" rx="290" ry="42" fill="#1f353a" opacity="0.4" />
+  <rect x="320" y="182" width="298" height="298" rx="56" fill="url(#mug)" />
+  <rect x="355" y="222" width="228" height="212" rx="34" fill="#3f2e26" opacity="0.35" />
+  <path d="M618 252c78-20 128 8 128 70 0 64-48 94-128 74" fill="none" stroke="#684637" stroke-width="32" stroke-linecap="round" />
+  <path d="M618 255c62-16 98 7 98 61 0 52-34 76-98 61" fill="none" stroke="#8a5c48" stroke-width="14" stroke-linecap="round" />
+  <path d="M360 264h218" stroke="#a9826a" stroke-width="10" stroke-linecap="round" opacity="0.6" />
+  <path d="M360 305h218" stroke="#a9826a" stroke-width="10" stroke-linecap="round" opacity="0.48" />
+  <path d="M360 346h218" stroke="#a9826a" stroke-width="10" stroke-linecap="round" opacity="0.36" />
+  <circle cx="164" cy="128" r="92" fill="#e5c19e" opacity="0.32" />
+  <circle cx="794" cy="92" r="74" fill="#f4dcc0" opacity="0.27" />
+  <circle cx="760" cy="508" r="106" fill="#2a4448" opacity="0.3" />
+</svg>

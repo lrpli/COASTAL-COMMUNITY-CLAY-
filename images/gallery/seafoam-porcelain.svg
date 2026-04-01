@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Seafoam Porcelain</title>
+  <desc id="desc">Porcelain vessels in seafoam glaze tones.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e6f3f0" />
+      <stop offset="56%" stop-color="#b6d7d2" />
+      <stop offset="100%" stop-color="#7ea7aa" />
+    </linearGradient>
+    <linearGradient id="porcelain" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7fffe" />
+      <stop offset="100%" stop-color="#b8d7d3" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="640" fill="url(#bg)" />
+  <rect x="0" y="498" width="960" height="142" fill="#3b686b" opacity="0.3" />
+  <ellipse cx="240" cy="505" rx="120" ry="25" fill="#325b5f" opacity="0.35" />
+  <ellipse cx="478" cy="515" rx="174" ry="33" fill="#325b5f" opacity="0.35" />
+  <ellipse cx="728" cy="507" rx="124" ry="26" fill="#325b5f" opacity="0.35" />
+  <path d="M158 268c0-46 37-74 82-74s82 28 82 74v160c0 46-37 74-82 74s-82-28-82-74z" fill="url(#porcelain)" />
+  <path d="M360 214h236v282H360z" fill="url(#porcelain)" />
+  <ellipse cx="478" cy="214" rx="118" ry="34" fill="#ecf7f4" />
+  <ellipse cx="478" cy="214" rx="78" ry="19" fill="#b4d8d3" opacity="0.6" />
+  <path d="M642 288c0-41 35-66 86-66s86 25 86 66v134c0 41-35 67-86 67s-86-26-86-67z" fill="url(#porcelain)" />
+  <path d="M392 290c56 24 112 24 168 0" stroke="#95c2bf" stroke-width="7" opacity="0.46" />
+  <path d="M392 342c56 24 112 24 168 0" stroke="#95c2bf" stroke-width="7" opacity="0.36" />
+  <circle cx="156" cy="116" r="84" fill="#ffffff" opacity="0.34" />
+  <circle cx="808" cy="102" r="70" fill="#f5fffd" opacity="0.32" />
+</svg>

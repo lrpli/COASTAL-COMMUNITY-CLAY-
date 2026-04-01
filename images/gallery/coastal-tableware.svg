@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Coastal Tableware</title>
+  <desc id="desc">Dining set with plates, bowl and cup in warm clay tones.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5dfc3" />
+      <stop offset="58%" stop-color="#d8b491" />
+      <stop offset="100%" stop-color="#7b8f92" />
+    </linearGradient>
+    <linearGradient id="plate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f3dec5" />
+      <stop offset="100%" stop-color="#c6946f" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="640" fill="url(#bg)" />
+  <path d="M0 470c214 24 364 24 560-4 150-21 264-15 400 14v160H0z" fill="#31585d" opacity="0.32" />
+  <ellipse cx="308" cy="420" rx="190" ry="70" fill="url(#plate)" />
+  <ellipse cx="308" cy="420" rx="132" ry="42" fill="#f7eddc" />
+  <ellipse cx="540" cy="452" rx="172" ry="64" fill="url(#plate)" />
+  <ellipse cx="540" cy="452" rx="118" ry="36" fill="#eed9bf" />
+  <path d="M670 274c0-35 29-57 67-57s67 22 67 57v120c0 36-29 58-67 58s-67-22-67-58z" fill="#9c6b50" />
+  <path d="M804 292c52-13 86 5 86 45 0 44-34 63-86 50" fill="none" stroke="#8b5d46" stroke-width="18" stroke-linecap="round" />
+  <path d="M260 420c21-13 42-13 63 0" stroke="#9c6b50" stroke-width="5" stroke-linecap="round" />
+  <path d="M485 452c18-10 36-10 54 0" stroke="#9c6b50" stroke-width="5" stroke-linecap="round" />
+  <circle cx="116" cy="118" r="82" fill="#fff4e5" opacity="0.28" />
+</svg>

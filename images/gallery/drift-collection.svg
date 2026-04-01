@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Drift Collection</title>
+  <desc id="desc">Three ceramic bowls inspired by shoreline movement.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#dcebef" />
+      <stop offset="58%" stop-color="#9ebec4" />
+      <stop offset="100%" stop-color="#6f9198" />
+    </linearGradient>
+    <linearGradient id="bowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e7f1ef" />
+      <stop offset="100%" stop-color="#9fbbb8" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="640" fill="url(#bg)" />
+  <path d="M0 470c180-68 296-72 480-20 179 50 299 50 480-8v198H0z" fill="#3d6166" opacity="0.34" />
+  <ellipse cx="300" cy="430" rx="170" ry="58" fill="url(#bowl)" />
+  <ellipse cx="300" cy="430" rx="126" ry="34" fill="#82a4a5" opacity="0.55" />
+  <ellipse cx="492" cy="386" rx="190" ry="66" fill="url(#bowl)" />
+  <ellipse cx="492" cy="386" rx="142" ry="38" fill="#89acac" opacity="0.54" />
+  <ellipse cx="700" cy="440" rx="160" ry="54" fill="url(#bowl)" />
+  <ellipse cx="700" cy="440" rx="116" ry="31" fill="#7ea2a3" opacity="0.55" />
+  <path d="M188 430c38-20 74-20 112 0" stroke="#f9ffff" stroke-width="6" stroke-linecap="round" opacity="0.7" />
+  <path d="M385 384c45-20 89-20 133 0" stroke="#f9ffff" stroke-width="6" stroke-linecap="round" opacity="0.7" />
+  <path d="M602 440c34-16 64-16 98 0" stroke="#f9ffff" stroke-width="6" stroke-linecap="round" opacity="0.7" />
+  <circle cx="144" cy="126" r="74" fill="#ffffff" opacity="0.3" />
+  <circle cx="818" cy="112" r="62" fill="#f0f9fb" opacity="0.28" />
+</svg>
