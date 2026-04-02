@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="hs-title hs-desc">
+  <title id="hs-title">Pottery Studio</title>
+  <desc id="hs-desc">Warm illustration of a pottery studio with wheel and shelves by the coast.</desc>
+  <defs>
+    <linearGradient id="hs-sky" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#e8d7c3"/>
+      <stop offset="60%" stop-color="#f6f2e8"/>
+      <stop offset="100%" stop-color="#d7b18c"/>
+    </linearGradient>
+    <linearGradient id="hs-wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f3e8d8"/>
+      <stop offset="100%" stop-color="#e4d3bf"/>
+    </linearGradient>
+    <linearGradient id="hs-floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c4a882"/>
+      <stop offset="100%" stop-color="#a8896a"/>
+    </linearGradient>
+    <linearGradient id="hs-wheel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a7b6a"/>
+      <stop offset="100%" stop-color="#5e5044"/>
+    </linearGradient>
+    <linearGradient id="hs-pot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ba7446"/>
+      <stop offset="100%" stop-color="#8b4f30"/>
+    </linearGradient>
+    <linearGradient id="hs-ocean" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5f8d92"/>
+      <stop offset="100%" stop-color="#275155"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="640" height="480" fill="url(#hs-sky)"/>
+  <!-- Window with ocean view -->
+  <rect x="60" y="40" width="200" height="160" rx="12" fill="#275155" opacity="0.15"/>
+  <rect x="68" y="48" width="184" height="144" rx="8" fill="url(#hs-ocean)" opacity="0.6"/>
+  <!-- Ocean waves in window -->
+  <path d="M68 140 Q110 125 152 140 Q194 155 236 140 L252 192 L68 192Z" fill="#5f8d92" opacity="0.5"/>
+  <path d="M68 155 Q120 140 160 155 Q200 170 252 155 L252 192 L68 192Z" fill="#275155" opacity="0.4"/>
+  <!-- Sun in window -->
+  <circle cx="210" cy="85" r="28" fill="#e8ba76" opacity="0.7"/>
+  <circle cx="210" cy="85" r="18" fill="#f4dcc0" opacity="0.6"/>
+  <!-- Wall -->
+  <rect x="0" y="200" width="640" height="280" fill="url(#hs-wall)" opacity="0.6"/>
+  <!-- Floor -->
+  <rect x="0" y="340" width="640" height="140" fill="url(#hs-floor)" opacity="0.5"/>
+  <!-- Shelf unit -->
+  <rect x="400" y="80" width="180" height="250" rx="6" fill="#8a7b6a" opacity="0.3"/>
+  <rect x="408" y="88" width="164" height="4" rx="2" fill="#6b5d50"/>
+  <rect x="408" y="148" width="164" height="4" rx="2" fill="#6b5d50"/>
+  <rect x="408" y="208" width="164" height="4" rx="2" fill="#6b5d50"/>
+  <rect x="408" y="268" width="164" height="4" rx="2" fill="#6b5d50"/>
+  <!-- Pots on shelves -->
+  <!-- Row 1 -->
+  <rect x="425" y="100" width="30" height="44" rx="14" fill="#ba7446" opacity="0.8"/>
+  <rect x="470" y="112" width="26" height="32" rx="12" fill="#8b4f30" opacity="0.7"/>
+  <rect x="520" y="105" width="34" height="39" rx="10" fill="#c4a882" opacity="0.8"/>
+  <!-- Row 2 -->
+  <ellipse cx="440" cy="180" rx="20" ry="12" fill="#ba7446" opacity="0.7"/>
+  <rect x="420" y="160" width="40" height="20" rx="8" fill="#8b4f30" opacity="0.6"/>
+  <rect x="480" y="158" width="28" height="38" rx="6" fill="#5f8d92" opacity="0.5"/>
+  <rect x="530" y="165" width="22" height="30" rx="10" fill="#d7b18c" opacity="0.7"/>
+  <!-- Row 3 -->
+  <rect x="430" y="218" width="36" height="44" rx="16" fill="#624336" opacity="0.7"/>
+  <ellipse cx="500" cy="245" rx="16" ry="11" fill="#ba7446" opacity="0.6"/>
+  <rect x="484" y="228" width="32" height="18" rx="6" fill="#c4a882" opacity="0.7"/>
+  <rect x="535" y="224" width="26" height="38" rx="12" fill="#275155" opacity="0.5"/>
+  <!-- Pottery wheel — center focus -->
+  <ellipse cx="250" cy="380" rx="90" ry="24" fill="#5e5044" opacity="0.5"/>
+  <rect x="220" y="300" width="60" height="80" rx="4" fill="url(#hs-wheel)"/>
+  <ellipse cx="250" cy="300" rx="65" ry="18" fill="#8a7b6a"/>
+  <ellipse cx="250" cy="298" rx="55" ry="14" fill="#9e8e7d"/>
+  <!-- Pot on the wheel -->
+  <path d="M228 270 Q228 240 250 235 Q272 240 272 270Z" fill="url(#hs-pot)"/>
+  <ellipse cx="250" cy="270" rx="22" ry="6" fill="#ba7446"/>
+  <ellipse cx="250" cy="235" rx="14" ry="4" fill="#c4916a"/>
+  <!-- Clay texture marks on the pot -->
+  <path d="M232 252 Q250 248 268 252" fill="none" stroke="#a86340" stroke-width="1.5" opacity="0.5"/>
+  <path d="M234 260 Q250 256 266 260" fill="none" stroke="#a86340" stroke-width="1.5" opacity="0.4"/>
+  <!-- Hands suggestion (abstract) -->
+  <path d="M215 255 Q210 250 212 240 Q216 235 222 240" fill="#d7b18c" opacity="0.4"/>
+  <path d="M285 255 Q290 250 288 240 Q284 235 278 240" fill="#d7b18c" opacity="0.4"/>
+  <!-- Small decorative circles (clay scraps) -->
+  <circle cx="140" cy="400" r="8" fill="#ba7446" opacity="0.2"/>
+  <circle cx="360" cy="410" r="6" fill="#8b4f30" opacity="0.2"/>
+  <circle cx="100" cy="420" r="10" fill="#c4a882" opacity="0.15"/>
+  <!-- Warm light glow -->
+  <circle cx="250" cy="200" r="180" fill="#e8ba76" opacity="0.06"/>
+  <circle cx="490" cy="150" r="120" fill="#f4dcc0" opacity="0.08"/>
+</svg>

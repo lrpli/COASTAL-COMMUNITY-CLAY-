@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-labelledby="kf-title">
+  <title id="kf-title">Ceramic kiln with warm glow</title>
+  <defs>
+    <linearGradient id="kf-bg" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#1f353a"/>
+      <stop offset="100%" stop-color="#2b5c5f"/>
+    </linearGradient>
+    <linearGradient id="kf-kiln" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a7b6a"/>
+      <stop offset="100%" stop-color="#5e5044"/>
+    </linearGradient>
+    <radialGradient id="kf-glow" cx="0.5" cy="0.6" r="0.5">
+      <stop offset="0%" stop-color="#e8ba76" stop-opacity="0.9"/>
+      <stop offset="40%" stop-color="#ba7446" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#8b4f30" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="kf-fire1" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#e8ba76"/>
+      <stop offset="50%" stop-color="#d4854a"/>
+      <stop offset="100%" stop-color="#ba7446" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="16" fill="url(#kf-bg)"/>
+  <!-- Ambient glow -->
+  <circle cx="200" cy="190" r="140" fill="url(#kf-glow)" opacity="0.4"/>
+  <!-- Kiln body -->
+  <rect x="110" y="80" width="180" height="170" rx="14" fill="url(#kf-kiln)"/>
+  <!-- Kiln bricks texture -->
+  <rect x="118" y="90" width="80" height="24" rx="2" fill="#7a6b5c" opacity="0.4"/>
+  <rect x="202" y="90" width="80" height="24" rx="2" fill="#7a6b5c" opacity="0.35"/>
+  <rect x="118" y="118" width="55" height="24" rx="2" fill="#7a6b5c" opacity="0.3"/>
+  <rect x="177" y="118" width="55" height="24" rx="2" fill="#7a6b5c" opacity="0.35"/>
+  <rect x="236" y="118" width="46" height="24" rx="2" fill="#7a6b5c" opacity="0.3"/>
+  <!-- Kiln opening -->
+  <rect x="145" y="155" width="110" height="85" rx="8" fill="#1f262a"/>
+  <!-- Fire glow inside -->
+  <rect x="150" y="165" width="100" height="70" rx="6" fill="#8b4f30" opacity="0.4"/>
+  <rect x="155" y="175" width="90" height="55" rx="5" fill="#ba7446" opacity="0.3"/>
+  <!-- Flames -->
+  <path d="M170 235 Q165 210 175 195 Q180 205 178 215 Q185 200 190 190 Q192 210 188 225Z" fill="url(#kf-fire1)" opacity="0.8"/>
+  <path d="M195 235 Q193 215 200 198 Q205 208 203 220 Q208 205 212 195 Q215 212 210 230Z" fill="url(#kf-fire1)" opacity="0.75"/>
+  <path d="M220 235 Q218 218 225 205 Q228 212 226 222 Q230 210 233 202 Q234 218 230 232Z" fill="url(#kf-fire1)" opacity="0.7"/>
+  <!-- Pots inside kiln (silhouettes) -->
+  <rect x="162" y="195" width="20" height="30" rx="8" fill="#3a2a20" opacity="0.5"/>
+  <rect x="190" y="200" width="18" height="25" rx="7" fill="#3a2a20" opacity="0.45"/>
+  <rect x="216" y="198" width="22" height="28" rx="9" fill="#3a2a20" opacity="0.5"/>
+  <!-- Chimney -->
+  <rect x="240" y="40" width="30" height="48" rx="4" fill="#6b5d50"/>
+  <!-- Smoke wisps -->
+  <path d="M255 40 Q260 25 252 12" fill="none" stroke="#9e8e7d" stroke-width="3" stroke-linecap="round" opacity="0.3"/>
+  <path d="M250 38 Q244 20 250 5" fill="none" stroke="#9e8e7d" stroke-width="2" stroke-linecap="round" opacity="0.2"/>
+  <!-- Sparks -->
+  <circle cx="175" cy="170" r="2" fill="#e8ba76" opacity="0.6"/>
+  <circle cx="210" cy="178" r="1.5" fill="#f4dcc0" opacity="0.5"/>
+  <circle cx="230" cy="172" r="2" fill="#e8ba76" opacity="0.55"/>
+  <circle cx="195" cy="165" r="1" fill="#fffcf6" opacity="0.4"/>
+  <!-- Floor glow -->
+  <ellipse cx="200" cy="260" rx="120" ry="18" fill="#e8ba76" opacity="0.12"/>
+</svg>
