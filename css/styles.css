@@ -1362,17 +1362,12 @@ textarea:focus-visible {
 }
 
 .wave-divider {
-  margin: -1.5rem 0;
-  line-height: 0;
-  overflow: hidden;
+  margin: 0;
+  height: 3px;
+  border-radius: var(--radius-pill);
+  background: linear-gradient(90deg, transparent, var(--tide), var(--clay), var(--tide), transparent);
+  opacity: 0.3;
   pointer-events: none;
-}
-
-.wave-divider img {
-  width: 100%;
-  height: auto;
-  display: block;
-  min-height: 48px;
 }
 
 .section-illustration {
